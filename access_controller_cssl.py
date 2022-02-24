@@ -57,8 +57,9 @@ class Customer:
 reps = 10
 total_dur = 0
 total_reward = 0
+response_length = 1000
 
-env = rl_layer(r'C:\Users\nxf09565\source\repos\JelleAdan\CSSL\AccessControllerExample\bin\Release\netcoreapp3.1')
+env = rl_layer(r'C:\Users\nxf09565\source\repos\JelleAdan\CSSL\AccessControllerExample\bin\Release\netcoreapp3.1', response_length)
 
 for i in range(0, reps):
 
